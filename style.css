@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+input {
+    width: 25%;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 300px;
+}
+
+label {
+    font-family: Poppins, Geneva, Tahoma, sans-serif;
+    color: #ACBAE1;
+}
+
+h2 {
+    font-family: Poppins, Geneva, Tahoma, sans-serif;
+    color: #ACBAE1;
+
+}
+
+
+body {
+    background-color: #242933;
+}
+
+input[type=button] {
+    background-color: #6C63FF;
+    border: 2px solid black;
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+    margin: 4px 2px;
+    cursor: pointer;
+    max-width: 300px;
+    width: 100%;
+  }
+
+  input[type=text], input[type=email], input[type=password]{
+    background-color: white;
+    color: black;
+    padding: 12px;
+    border-radius: 4px;
+    margin: 4px 2px;
+  }
+
+  .formulario {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #2F3644;
+    border: 5px #ACBAE1;
+    border-radius: 4px;
+    padding-right: 3vh;
+    padding-left: 3vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+
+  }
+
+  input[required]:invalid {
+    border: 2px solid red;
+  }
+
+  input[required]:valid {
+    border: 2px solid green;
+  }
+  
+  #tick {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  #x {
+    display: inline-block;
+    margin-left: 10px;
+  }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulario</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div>
+        <form class="formulario" id="miFormulario">
+            <h2>Create Account</h2>
+
+            <label for="name">Nombre</label><br>
+            <input type="text" id="name" name="user_name" required>
+            <span id="imagen_veri" style="display:none;"><img src="/images/success-icon.svg"></span>
+            <span id="imagen_inco" style="display:none;"><img src="/Images/error-icon.svg">
+            </span>
+            <legend id="mensaje" style="display:none; color:red;">Rellene este campo</legend>
+            <br>
+
+            <label for="mail">Email</label><br>
+            <input type="email" id="mail" name="user_mail" required>
+            <span id="imagen_veri" style="display:none;"><img src="/images/success-icon.svg"></span>
+            <span id="imagen_inco" style="display:none;"><img src="/Images/error-icon.svg"></span>
+            <legend id="mensaje" style="display:none; color:red;">Rellene este campo</legend><br>
+
+            <label for="pass">Clave</label><br>
+            <input type="password" id="pass" name="user_pass" required maxlength="8">
+            <span id="imagen_veri" style="display:none;"><img src="/images/success-icon.svg"></span>
+            <span id="imagen_inco" style="display:none;"><img src="/Images/error-icon.svg"></span>
+            <legend id="mensaje" style="display:none; color:red;">Rellene este campo</legend><br>
+
+            <label for="pass2">Confirme su clave</label><br>
+            <input type="password" id="pass2" name="user_pass2" required>
+            <span id="imagen_veri" style="display:none;"><img src="/images/success-icon.svg"></span>
+            <span id="imagen_inco" style="display:none;"><img src="/Images/error-icon.svg"></span>
+            <legend id="mensaje" style="display:none; color:red;">Rellene este campo</legend><br>
+            <br>
+            <input type="button" value="ENVIAR">
+
+        </form>
+    </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
